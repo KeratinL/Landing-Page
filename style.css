@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+}
+
+.header-container {
+    padding: 10px 200px 165px 200px;
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    flex: 1;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+
+.link {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.text-image {
+    display: flex;
+    gap: 50px;
+    margin-top: 125px;
+}
+
+.hero-text {
+    flex: 1;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+
+}
+
+.secondary {
+    text-align: left;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: -15px;
+}
+
+.header-button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 28px;
+    font-weight: bold;
+}
+
+.zard {
+    flex: 1;
+    max-height: 210px;
+    max-width: 600px;
+    min-width: 500px;
+
+}
+
+.thumbnail {
+    text-align: center;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 50px;
+}
+
+.thumbnail-container {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.picture-text {
+    width: 200px;
+}
+
+.thumbnail-image {
+    box-sizing: border-box;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 200px;
+}
+
+.thumbnail-text {
+    margin-top: 5px;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    padding: 100px 375px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.thor {
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.action-container {
+    padding: 100px 125px;
+}
+
+.action {
+    background-color: #3882f6;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    color: #e5e7eb;
+}
+
+.action-text {
+    font-weight: bolder;
+}
+
+.action-subtext {
+    font-weight: normal;
+}
+
+.signup {
+    align-self: center;
+    border: 2px solid #e5e7eb;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 5px;
+    padding: 5px 25px;
+    font-weight: bolder;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
